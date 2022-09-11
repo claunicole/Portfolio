@@ -2,7 +2,7 @@
     display: flex;
     justify-content:space-between;
     min-width: 100%;
-    height: 10px;
+    height: 70px;
     padding: 25px;
     position: fixed;
     top: 0px;
@@ -30,7 +30,11 @@
     height: 40px;
     margin-left: 0px;
     margin-bottom: 0px;
-} 
+}
+
+.logo h3:hover{
+    color: #c551ef;
+}
 
 .menu {
     display: flex;
@@ -38,7 +42,7 @@
     position: fixed;
     width: 75vw;
     height: 100%;
-    background-color: #213547;
+    background-color: #39104a;
     color: white;
     top: 0;
     transition: 250ms;
@@ -77,6 +81,11 @@
     text-decoration: none;
     font-size: 1.3rem;
     color: white;
+}
+
+.item a:hover {
+   
+    color: #c551ef;
 }
 
 .menu-bars{

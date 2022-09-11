@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column; 
     padding-top: 50px;
-    margin-top: 30px;
 }
 
 .user-info {
@@ -19,7 +18,7 @@
     min-width: 250px ;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #213547;
+    background-color: #39104a;
     color: white;
 }
 
@@ -29,14 +28,14 @@
     margin-bottom: 30px;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #213547;
+    background-color: #39104a;
     color: white;
 }
 
 .button-message {
     margin-top: 15px;
     font-size: 1.1rem;
-    border: #213547 3px solid;
+    border: #39104a 3px solid;
     
 
 }
@@ -54,6 +53,6 @@
 
 @media (min-width: 1024px) {
     .form-container {
-        margin: 150px 15px 0px 15px;
+        margin: 140px 15px 0px 15px;
     }
 }

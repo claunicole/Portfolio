@@ -1,0 +1,143 @@
+.projects{
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 90%;
+    box-shadow: 0 2px 4px 2px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 4px 0 rgb(0 0 0 / 12%);  
+    border-radius: 15px;
+    padding: 10px 5px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.item-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 390px;
+    border-radius: 15px;
+    background-size: cover;   
+}
+
+
+.item-project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 15px;   
+}
+
+.item-project-container:hover,.item-project-container:active, .item-project-container:focus {
+    opacity: 100;
+    color: #fff;
+    background: #000000b4;
+    backdrop-filter: blur(10px); 
+}
+
+.item-description {
+    margin-top: 25px;
+}
+
+.item-skill {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-info h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.item-info p {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 760px) {
+    .projects{
+        margin-top: 120px;
+        display: flex;
+    }
+
+    .projects h2 {
+        font-size: 2rem;
+    }
+
+    .project-container {
+        height: 400px;
+        width: 80%;
+    }
+
+    .item-project {
+        width: 90%;
+        height: 270px;
+        border-radius: 15px;
+        background-size: cover;   
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .projects h2 {
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+
+    .project-container {
+        height: 450px;
+        width: 25vw;
+        padding: 20px 5px;
+        margin: 20px;
+    }
+    
+    .projects-row {
+        display: flex;
+    }
+    
+
+    .item-project {
+        width: 90%;
+        height: 500px;
+    }
+
+    .item-project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        border-radius: 15px;   
+    }
+}

@@ -1,0 +1,31 @@
+.icon {
+    display: flex;
+    margin-left: 150px;
+    
+}
+
+.image-icon {
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+    color:black
+
+}
+
+@media (min-width: 760px) {
+    .icon {
+        margin-left: 350px;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .icon {
+        margin-left: 100px;
+        
+    }
+
+    .image-icon:hover {
+        color: #646cff;
+    }
+}

@@ -32,6 +32,10 @@
     margin-bottom: 0px;
 }
 
+.logo h3 {
+    color: #213547;
+}
+
 .logo h3:hover{
     color: #c551ef;
 }

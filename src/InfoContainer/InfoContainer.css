@@ -3,7 +3,7 @@
     white-space: nowrap;
     border-right: 2px solid;
     font-size: 22px;
-    width: 22.5ch;
+    width: 22ch;
     height: 30px;
     animation: typing 3s steps(22),
     blink .4s infinite step-end alternate;
@@ -85,11 +85,6 @@
   left: 0px;
 }
 
-@media (min-width: 768px) {
-  .button-52 {
-    padding: 13px 50px 13px;
-  }
-}
 
 @media (min-width: 760px) {
     
@@ -151,5 +146,9 @@
 
     .button{
         font-size: 1.2rem;
+    }
+
+    .dev-text {
+    width: 23ch;
     }
 }

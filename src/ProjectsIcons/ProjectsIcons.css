@@ -12,6 +12,8 @@
 
 }
 
+
+
 @media (min-width: 760px) {
     .icon {
         margin-left: 350px;
@@ -26,6 +28,6 @@
     }
 
     .image-icon:hover {
-        color: #646cff;
+        color: #c551ef;
     }
 }

@@ -18,10 +18,10 @@ function InfoContainer() {
       </div>
         <Link to='/contact'><button className='button'>Contactame</button></Link>
         </div>
-        <About/>
+      {/*   <About/>
         <Skills/>
         <Projects/>
-        <Contact/>
+        <Contact/> */}
     </div>
   )
 }

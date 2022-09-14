@@ -17,6 +17,10 @@
 
 @media (min-width: 760px) {
 
+.about-container {
+    margin-top: 150px;
+}
+
 .about-container h2 {
     font-size: 2rem;
 }
@@ -36,13 +40,15 @@
     .about-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 0px;
+    min-height: 85vh;  
 
     }
     
     .about-text-container{
-        margin-top: 60px;
+        margin-top: 20px;
     }
     
 

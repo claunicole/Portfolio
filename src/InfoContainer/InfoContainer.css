@@ -1,36 +1,14 @@
-.dev-text {
-    display: block;
-    white-space: nowrap;
-    border-right: 2px solid;
-    font-size: 22px;
-    width: 22ch;
-    height: 30px;
-    animation: typing 3s steps(22),
-    blink .4s infinite step-end alternate;
-    overflow: hidden;
-}
-
-@keyframes typing {
-    from {width: 0;}
-}
-
-@keyframes blink {
-    50% {border-color: transparent;}
-}
 
 .info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    min-width: 300px;
-    margin-top: 200px;
-    
+    min-width: 300px;    
 }
 
 .info {
     margin-left: 15px;
-    margin-bottom: 140px;
 }
 
 .info-desktop {
@@ -43,12 +21,12 @@
 }
 
 .info h3 {
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 .button-container {
     margin-right: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 
@@ -85,8 +63,29 @@
   left: 0px;
 }
 
+.dev-text {
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid;
+    font-size: 22px;
+    width: 22ch;
+    height: 30px;
+    animation: typing 3s steps(22),
+    blink .4s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
 
 @media (min-width: 760px) {
+    
     
     .info h2 {
         font-size: 2.5rem;
@@ -106,13 +105,17 @@
 @media (min-width: 1024px) {
 
     .info-container {
-        margin-top: 0px;   
+        justify-content: flex-start;
+        margin-top: 0px; 
+        min-height: 0vh;  
     }
 
     .info {
         display: flex;
         align-items: center;
         flex-direction: column;
+        min-height: 85vh;  
+        margin-bottom: 50px;
         
     }
 
@@ -150,5 +153,12 @@
 
     .dev-text {
     width: 23ch;
+    }
+}
+
+@media (min-width: 1440px){
+
+    .info {
+    margin-bottom: 0px;
     }
 }

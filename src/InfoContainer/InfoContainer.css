@@ -3,9 +3,9 @@
     white-space: nowrap;
     border-right: 2px solid;
     font-size: 22px;
-    width: 22ch;
+    width: 22.5ch;
     height: 30px;
-    animation: typing 3s steps(23),
+    animation: typing 3s steps(22),
     blink .4s infinite step-end alternate;
     overflow: hidden;
 }

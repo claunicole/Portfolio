@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './Navbar/Navbar'
 import Footer from './Footer/Footer'
 import InfoContainer from './InfoContainer/InfoContainer'
-import { BrowserRouter, Route, Routes, } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import About from './About/About'
 import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
@@ -22,6 +22,7 @@ function App() {
           <Route path='/skills' element={<Skills/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path ="/*" element ={<Navigate to ="/" replace/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

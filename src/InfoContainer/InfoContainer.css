@@ -3,7 +3,7 @@
     white-space: nowrap;
     border-right: 2px solid;
     font-size: 22px;
-    width: 23ch;
+    width: 22ch;
     height: 30px;
     animation: typing 3s steps(23),
     blink .4s infinite step-end alternate;

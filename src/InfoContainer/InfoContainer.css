@@ -1,3 +1,22 @@
+.dev-text {
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid;
+    font-size: 22px;
+    width: 23ch;
+    height: 30px;
+    animation: typing 3s steps(23),
+    blink .4s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
 
 .info-container {
     display: flex;

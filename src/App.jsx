@@ -8,6 +8,7 @@ import About from './About/About'
 import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
+import { FaSkiing } from 'react-icons/fa'
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path ="/*" element ={<Navigate to ="/" replace/>}/>
         </Routes>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
         <Footer/>
       </BrowserRouter>
     </div>

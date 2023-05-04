@@ -16,12 +16,8 @@ function InfoContainer() {
         <h3 className='dev-text'>React / Ruby on Rails Dev</h3>
         <div className='button-container'>
       </div>
-        <Link to='/contact'><button className='button'>Contactame</button></Link>
+        <Link to='/contact'><button className='button'>Contáctame</button></Link>
         </div>
-      {/*   <About/>
-        <Skills/>
-        <Projects/>
-        <Contact/> */}
     </div>
   )
 }

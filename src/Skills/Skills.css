@@ -1,9 +1,11 @@
 .skills-container {
     height: 70vh;
     min-width: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 15px;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    padding-left: 15px;
+    background-color: white;
+    color: #213547;
 }
 
 .skill-info{
@@ -35,11 +37,11 @@
 
 @media (min-width: 760px) {
     .skills-container {
-        margin-top: 180px;
+        padding-top: 180px;
     }
 
     .skills-container h2 {
-            font-size: 2rem;
+        font-size: 2rem;
     }
     
     .skill-item {
@@ -60,8 +62,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 150px;
-        margin-bottom: 0px;
+        padding-top: 150px;
+        padding-bottom: 550px;
     }
 
     .skill-info {

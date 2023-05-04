@@ -1,7 +1,10 @@
 .projects{
-    margin-top: 100px;
-    margin-left: 10px;
-    margin-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    background-color: #39104a;
+    color: white;
+
 }
 
 
@@ -17,6 +20,7 @@
     padding: 10px 5px;
     margin-top: 50px;
     margin-left: 5px;
+    background-color: white;
 }
 
 .item-project {
@@ -77,7 +81,7 @@
 
 @media (min-width: 760px) {
     .projects{
-        margin-top: 150px;
+        padding-top: 150px;
         display: flex;
     }
 
@@ -88,6 +92,7 @@
     .project-container {
         height: 400px;
         width: 80%;
+        margin-top: 100px;
     }
 
     .item-project {
@@ -105,7 +110,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;   
-        margin-top: 120px;
+        padding-top: 120px;
     }
 
     .projects h2 {

@@ -14,7 +14,7 @@ function NavLinks({mobile, desktop}) {
               <Link to='/projects'>Proyectos</Link>
             </li>
             <li className='item'>
-              <Link to='/contact'>Contactame</Link>
+              <Link to='/contact'>Contáctame</Link>
             </li>
             </div>
     </>

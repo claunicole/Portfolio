@@ -14,10 +14,13 @@ function InfoContainer() {
         <h2 className='title-info'>Web Developer</h2>
         <h2 className='info-desktop'>Hola! Soy Claudia, Web Developer</h2>
         <h3 className='dev-text'>React / Ruby on Rails Dev</h3>
-        <div className='button-container'>
-      </div>
+        <div className='button-container'></div>
         <Link to='/contact'><button className='button'>Contáctame</button></Link>
-        </div>
+      </div>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
     </div>
   )
 }

@@ -16,7 +16,7 @@ function Footer() {
       </li>
       <li>
          <img src="https://firebasestorage.googleapis.com/v0/b/ecommerce-coder-tradegames.appspot.com/o/Twitter-logo.svg.png?alt=media&token=d3f67340-3a9e-4094-b48c-99fef30f954f"
-              onClick={() => (window.location = "https://twitter.com/Claunicole1")}>
+              onClick={() => (window.location = "https://twitter.com/Claunicode")}>
          </img>
       </li> 
     </ul>

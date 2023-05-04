@@ -6,9 +6,11 @@ function About() {
       <div className="about-container">
         <h2>Sobre mí</h2>
         <div className='about-text-container'>
-        <p>Desarrolladora Web con conocimiento en HTML, CSS, JavaScript, React y Ruby on Rails.</p>
+        <p>Desarrolladora Web con conocimiento en JavaScript, React, Next.js y Ruby on Rails.</p>
         <p>Apasionada por la tecnología, por el continuo aprendizaje, en búsqueda de retos y nuevas oportunidades.</p>
-        <p>Me encanta enseñar, tengo paciencia, mucha empatía para tratar con problemas, responsable y me adapto fácilmente a nuevas situaciones.</p>
+        <p>Actualmente trabajando en Código Facilito como Desarrolladora Ruby on Rails.</p>
+        <p>Tambien Mentora en BrightCoders, apoyando a participantes de los programas intensivos de Brightcoders a desarrollar aplicaciones buenas prácticas, mejorando sus habilidades técnicas y utilizando de forma continua tecnologías como Git y Github</p>
+
         </div>
       </div>
     </div>

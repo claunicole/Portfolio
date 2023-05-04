@@ -25,10 +25,6 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path ="/*" element ={<Navigate to ="/" replace/>}/>
         </Routes>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
         <Footer/>
       </BrowserRouter>
     </div>

@@ -5,13 +5,13 @@
     justify-content: center;
     min-height: 70vh;
     min-width: 300px;  
-    background-color: white;
-    color: #213547;
+    color: white;
     padding-top: 120px;
     
 }
 
 .info {
+    background: linear-gradient(180deg, #491b5d 0%, rgba(145, 127, 179, 0.84) 100%);
     padding-left: 15px;
     
 }
@@ -43,7 +43,7 @@
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  border: 1px solid black;
+  border: 1px solid white;
   cursor: pointer;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -58,7 +58,7 @@
 
 .button:after {
   content: "";
-  background-color: #55196e;
+  background-color: #700a95;
   width: 100%;
   z-index: -1;
   position: absolute;

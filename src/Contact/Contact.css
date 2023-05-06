@@ -20,7 +20,7 @@
     min-width: 250px ;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #39104a;
+    background-color: #66307D;
     color: white;
 }
 
@@ -30,15 +30,16 @@
     margin-bottom: 30px;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #39104a;
+    background-color: #66307D;
     color: white;
 }
 
 .button-message {
     margin-top: 15px;
     font-size: 1.1rem;
-    border: #39104a 3px solid;
-    background-color: #39104a;
+    border: #66307D 3px solid;
+    background-color: #66307D;
+    color: white;
     
 
 }

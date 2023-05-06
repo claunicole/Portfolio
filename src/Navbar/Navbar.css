@@ -9,7 +9,7 @@
     background-color: white;
     color: #213547;
     z-index: 100;
-    
+    box-shadow: 1px 10px 15px -8px rgba(132, 132, 132, 0.493);
 }
 
 .nav-menu {

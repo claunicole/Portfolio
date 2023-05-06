@@ -1,13 +1,9 @@
-import { Link } from 'react-router-dom'
-import About from '../About/About'
-import Contact from '../Contact/Contact'
-import Projects from '../Projects/Projects'
-import Skills from '../Skills/Skills'
-import './InfoContainer.css'
+import { Link } from "react-router-dom"
+import './Home.css'
 
-function InfoContainer() {
+function Home() {
   return (
-    <div className="info-container">
+    <div className="home">
       <div className='info'>
         <h2 className='title-info'>Hola!</h2>
         <h2 className='title-info'>Soy Claudia,</h2>
@@ -17,12 +13,7 @@ function InfoContainer() {
         <div className='button-container'></div>
         <Link to='/contact'><button className='button'>Contáctame</button></Link>
       </div>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-    </div>
-  )
-}
+      </div>
+      )}
 
-export default InfoContainer
+      export default Home

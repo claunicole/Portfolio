@@ -8,6 +8,7 @@ import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
 import Home from './Home/Home'
+import MainPage from './MainPage/MainPage'
 
 
 function App() {
@@ -18,17 +19,14 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<MainPage/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/skills' element={<Skills/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path ="/*" element ={<Navigate to ="/" replace/>}/>
         </Routes>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
+    
         <Footer/>
       </BrowserRouter>
     </div>

@@ -57,6 +57,10 @@
     .form-container h2 {
         font-size: 2rem;
     }
+
+    .button-message{
+        margin-bottom: 50px;
+    }
 }
 
 

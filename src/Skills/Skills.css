@@ -1,5 +1,5 @@
 .skills-container {
-    height: 100vh;
+    min-height: 100vh;
     min-width: 200px;
     padding-top: 100px;
     padding-left: 15px;

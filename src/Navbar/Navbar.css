@@ -85,6 +85,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     color: white;
+    font-weight: 400;
 }
 
 .item a:hover {

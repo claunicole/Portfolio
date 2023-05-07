@@ -113,6 +113,11 @@
 
 @media (min-width: 1024px) {
 
+    .navbar { 
+        min-height: 130px;
+    }
+
+
     .logo {
         width: 130px;
         height: 40px;

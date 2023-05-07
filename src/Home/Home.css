@@ -99,9 +99,7 @@ left: 0px;
 @media (min-width: 760px) {
 
   .info {
-    
     padding-top: 100px;
-    
   }
   
   
@@ -135,6 +133,8 @@ left: 0px;
       flex-direction: column;
       min-height: 85vh;  
       margin-bottom: 50px;
+      padding-top: 0px;
+    
       
   }
 

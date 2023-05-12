@@ -4,9 +4,9 @@
   justify-content: center;
   min-height: 70vh;
   min-width: 300px;  
-  color: white;
+  color: #213547;
   padding-top: 120px;
-  background: linear-gradient(180deg, #491b5d 0%, rgba(145, 127, 179, 0.84) 100%);
+  background-color: white;
   
 }
 
@@ -43,7 +43,7 @@ font-weight: 600;
 letter-spacing: 1px;
 padding: 13px 20px 13px;
 outline: 0;
-border: 1px solid white;
+border: 1px solid black;
 cursor: pointer;
 position: relative;
 background-color: rgba(0, 0, 0, 0);
@@ -58,7 +58,7 @@ margin-bottom: 50px;
 
 .button:after {
 content: "";
-background-color: #700a95;
+background-image: linear-gradient(90deg, #2e22ac, #e34c9d);
 width: 100%;
 z-index: -1;
 position: absolute;
@@ -141,6 +141,9 @@ left: 0px;
   .info h2 {
       font-size: 4rem;
       line-height: 65px;
+      
+      
+
   }
 
   .title-info {
@@ -154,16 +157,19 @@ left: 0px;
       align-items: center;
       text-align: center;
       width: 650px;
-      height: 200px;   
+      height: 200px;
+         
   }
 
   .info h3 {
       margin-top: 0px;
+      
   }
   
   .button-container {
       margin-right: 20px;
       margin-bottom: 50px;
+      
   }
 
   .button{

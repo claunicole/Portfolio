@@ -9,6 +9,10 @@ function Contact() {
   const[dataForm, setDataForm] = useState({email: "", name: "", message:""})
   const form = useRef();
 
+  const service = import.meta.env.VITE_SERVICE;
+  const template = import.meta.env.VITE_TEMPLATE;
+  const public_key = import.meta.env.VITE_PUBLIC_KEY;
+
     async function sendEmail (e) {
       e.preventDefault();
       let messages = {}
@@ -18,10 +22,10 @@ function Contact() {
   
       await emailjs
         .sendForm(
-          'service_tkidrje', 
-          'template_9asjrvu', 
+          service, 
+          template, 
           form.current, 
-          'tXZYCh_v0YhiUyL3e'
+          public_key
           )
         .then((result) => {
             console.log(result.text);

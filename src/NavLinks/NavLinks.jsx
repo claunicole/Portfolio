@@ -8,9 +8,6 @@ function NavLinks({mobile, desktop}) {
               <Link to='/about'>Sobre Mí</Link>
             </li>
             <li className='item'>
-              <Link to='/skills'>Tecnologías</Link>
-            </li>
-            <li className='item'>
               <Link to='/projects'>Proyectos</Link>
             </li>
             <li className='item'>

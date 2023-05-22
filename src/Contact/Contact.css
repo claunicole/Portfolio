@@ -4,7 +4,7 @@
     align-items: center;
     min-height: 90vh;
     padding: 100px 15px 0px 15px;
-    background-color: #f4f6fc;
+    background-color: #fcf4fb;
     color: #213547;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -40,8 +40,8 @@
 .button-message {
     margin-top: 15px;
     font-size: 1.1rem;
-    border: #8200BD 3px solid;
-    background-color: #8200BD;
+    border: #D21378 3px solid;
+    background-color: #D21378;
     color: white;
     
 

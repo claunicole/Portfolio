@@ -39,16 +39,16 @@ const showInfo = () => setInfo(!info)
         <div className='projects-row'>
           {projects.map((project) => (
             <div id={project.id}>
-             <div className='project-container'  >
-                <div className="item-project" style={{backgroundImage: `url(${project.img})`}}>
-                <div className= 'item-project-container' >
-                  <p className='item-description'>{project.description}</p>
-                  <p className='item-skill'>{project.skills}</p>
+             <div className='project-container'>
+                <div> 
+                  <h3>{project.name}</h3>
+                  <p>{project.description}</p>
+                  <p>Tecnologias: {project.skills}</p>
+
                 </div>
+                <div className="item-project" style={{backgroundImage: `url(${project.img})`}}>
                 </div>
                 <div className='item-info'>
-                <h3>{project.name}</h3>
-                <p>{project.tecnology}</p>
                   <ProjectsIcons github={project.github} link={project.link}/>
                 </div>
               </div> 

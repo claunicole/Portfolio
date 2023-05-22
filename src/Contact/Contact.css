@@ -4,8 +4,9 @@
     align-items: center;
     min-height: 90vh;
     padding: 100px 15px 0px 15px;
-    background-color: white;
+    background-color: #f4f6fc;
     color: #213547;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .form {
@@ -20,8 +21,9 @@
     min-width: 250px ;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #66307D;
-    color: white;
+    background-color: #d9deed;
+    border: #213547 1px solid;
+    color: #213547;
 }
 
 .message-info {
@@ -30,7 +32,8 @@
     margin-bottom: 30px;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #66307D;
+    background-color: #d9deed;
+    border: #213547 1px solid;
     color: white;
 }
 
@@ -45,7 +48,7 @@
 }
 
 ::placeholder {
-    color: white;
+    color: #213547;
 }
 
 @media (min-width: 760px) {

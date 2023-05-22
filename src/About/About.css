@@ -5,6 +5,8 @@
     background-color: #f4f6fc;
     color: #213547;
     padding-bottom: 120px;
+    font-family: 'Ubuntu', sans-serif;
+ 
    
     
 }
@@ -15,14 +17,20 @@
     
 }
 
+.img-profile {
+    display: none;
+  }
+
 .about-text-container{
     margin-top: 75px;
-    font-weight: 400;
+
 }
 
 .about-container p {
     margin-top: 15px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    padding: 10px;
+    line-height: 1.5;
 }
 
 
@@ -55,12 +63,21 @@
     justify-content: center;
     align-items: center;
     
-    
 
     }
     
     .about-text-container{
         margin-top: 20px;
+    }
+
+    .info-profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .img-profile {
+        display:inline;
     }
     
     .about-container h2 {
@@ -69,7 +86,7 @@
 
     .about-container p {
         max-width: 700px;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         margin-top: 24px;
     }
 }

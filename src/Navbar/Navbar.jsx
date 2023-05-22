@@ -15,7 +15,7 @@ const showMenu = () => setMenu(!menu)
     <header className={!menu ? 'navbar' : 'nav-menu'}>
         <ul className='nav-links-container'>
         <div className='logo'>
-        <Link to='/'><h3>claunicole</h3></Link>
+        <Link to='/'><h3>claunicode</h3></Link>
         </div>
         <NavLinks desktop='item-container-desktop'/>
         </ul>

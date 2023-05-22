@@ -54,7 +54,7 @@ function Contact() {
 
   return (
     <div className='form-container'>
-        <h2>Formulario</h2>
+        <h2>Contacto</h2>
         <form className="form" ref={form} onSubmit={sendEmail}>
             <input name="name" type="text" placeholder='Nombre' value={dataForm.name} onChange={handlerChange} className='user-info'></input>
             <input name="email" type="email" placeholder='Email' value={dataForm.email} onChange={handlerChange} className='user-info'></input>

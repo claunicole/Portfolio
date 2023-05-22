@@ -46,8 +46,8 @@
     position: fixed;
     width: 75vw;
     height: 100%;
-    background-color: #39104a;
-    color: white;
+    background-color: #e1ddf4;
+    color: #213547;
     top: 0;
     transition: 250ms;
     padding: 15px;
@@ -84,7 +84,7 @@
 .item a {
     text-decoration: none;
     font-size: 1.3rem;
-    color: white;
+    color: #213547;
     font-weight: 400;
 }
 

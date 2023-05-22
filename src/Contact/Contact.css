@@ -21,7 +21,7 @@
     min-width: 250px ;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #d9deed;
+    background-color: #edebf7;
     border: #213547 1px solid;
     color: #213547;
 }
@@ -32,16 +32,16 @@
     margin-bottom: 30px;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: #d9deed;
+    background-color: #edebf7;
     border: #213547 1px solid;
-    color: white;
+    color: #213547;
 }
 
 .button-message {
     margin-top: 15px;
     font-size: 1.1rem;
-    border: #66307D 3px solid;
-    background-color: #66307D;
+    border: #720481 3px solid;
+    background-color: #720481;
     color: white;
     
 

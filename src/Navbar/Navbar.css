@@ -46,8 +46,8 @@
     position: fixed;
     width: 75vw;
     height: 100%;
-    background-color: #D9348B;
-    color: white;
+    background-color: #f6f4fc;
+    color: #213547;
     top: 0;
     transition: 250ms;
     padding: 15px;
@@ -84,7 +84,7 @@
 .item a {
     text-decoration: none;
     font-size: 1.3rem;
-    color: white;
+    color: #213547;
     font-weight: 400;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .menu-x {
-    color: white;
+    color: #213547;
     margin-top: 20px;
     margin-left: 150px;
 }

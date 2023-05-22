@@ -40,15 +40,15 @@
 .button-message {
     margin-top: 15px;
     font-size: 1.1rem;
-    border: #720481 3px solid;
-    background-color: #720481;
+    border: #8200BD 3px solid;
+    background-color: #8200BD;
     color: white;
     
 
 }
 
 ::placeholder {
-    color: #213547;
+    color: #395267;
 }
 
 @media (min-width: 760px) {

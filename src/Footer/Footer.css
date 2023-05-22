@@ -6,8 +6,8 @@
     position: relative ;
     min-height: 120px;
     width: 100%;
-    color: black;
-    background-color: #f3f3f5 ;
+    color: white;
+    background-color: #8200BD ;
     /* background-color: #27024b; */
 }
 
@@ -27,7 +27,7 @@
     width: 30px;
     height: auto;
     cursor: pointer;
-    filter: brightness(0) invert(0);
+    filter: brightness(0) invert(1);
 }
 
 .footer_container p {

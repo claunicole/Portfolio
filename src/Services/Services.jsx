@@ -2,10 +2,9 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Link } from 'react-router-dom'
 import './Services.css'
-import devImg from '/dev-code.png'
-import landingImg from '/landing.jpg'
-import ecommerceImg from '/ecommerce.jpg'
-import codingImg from '/coding.jpg'
+import landingImg from '/landing.png'
+import ecommerceImg from '/ecommerce.png'
+import codingImg from '/coding.png'
 
 
 function Services() {
@@ -16,7 +15,7 @@ function Services() {
           <div className='service-card'>
             <div className='service-info'>
               <div>
-                <LazyLoadImage className='img-service' alt='landing image' src={devImg} effect='blur' />
+                <LazyLoadImage className='img-service' alt='landing image' src={landingImg} effect='blur' />
               </div>
               <h3 className='service-title'>Landing Page</h3>
               <h4 className='service-title'>100 usd</h4>
@@ -30,7 +29,7 @@ function Services() {
           <div className='service-card'>
             <div className='service-info'>
               <div>
-                <LazyLoadImage className='img-service' alt='ecommerce image' src={devImg} effect='blur' />
+                <LazyLoadImage className='img-service' alt='ecommerce image' src={ecommerceImg} effect='blur' />
               </div>
               <h3 className='service-title'>Ecommerce con Jumpseller</h3>
               <h4 className='service-title'>150usd</h4>
@@ -43,7 +42,7 @@ function Services() {
           <div className='service-card'>
             <div className='service-info'>
              <div>
-                <LazyLoadImage className='img-service' alt='coding image' src={devImg} effect='blur' />
+                <LazyLoadImage className='img-service' alt='coding image' src={codingImg} effect='blur' />
               </div>
               <h3 className='service-title'>Aplicaciones Web</h3>
               <h4 className='service-title'>Valores según cotización</h4>

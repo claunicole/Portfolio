@@ -9,9 +9,11 @@ import {
   function ProjectsIcons({github, link}) {
     return (
       <div className="icon">
-        <a href={github} >
-          <FaGithub className="image-icon"/>
+          {github && (
+        <a href={github}>
+          <FaGithub className="image-icon" />
         </a>
+      )}
         <a href={link}>
           <FaRegArrowAltCircleRight className="image-icon"/>
         </a>

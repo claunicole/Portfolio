@@ -44,10 +44,9 @@ const showInfo = () => setInfo(!info)
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
                   <p>Tecnologias: {project.skills}</p>
-
                 </div>
-                <div className="item-project" style={{backgroundImage: `url(${project.img})`}}>
-                </div>
+                <a className="item-project" href={project.link} style={{backgroundImage: `url(${project.img})`}}>
+                </a>
                 <div className='item-info'>
                   <ProjectsIcons github={project.github} link={project.link}/>
                 </div>

@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 480px;
     width: 90%;
     box-shadow: 0 2px 4px 2px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 4px 0 rgb(0 0 0 / 12%);  
@@ -81,6 +81,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: flex-end;
     margin: 20px;
 }
 
@@ -138,6 +139,7 @@
         padding: 20px 5px;
         margin: 10px;
         margin-left: 150px;
+        padding-left: 40px;
     }
     
     .projects-row {

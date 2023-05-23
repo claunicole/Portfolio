@@ -69,5 +69,6 @@
 
   .service-card {
     width: 400px;
+    justify-content: space-between;
   }
 }

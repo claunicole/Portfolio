@@ -13,9 +13,9 @@ function Services() {
         < div className='services'>
           <div className='service-card'>
             <div className='service-info'>
-              {/* <div>
+              <div>
                 <LazyLoadImage className='img-service' alt='landing image' src={landingImg} effect='blur' />
-              </div> */}
+              </div>
               <h3 className='service-title'>Landing Page</h3>
               <h4 className='service-title'>100 usd</h4>
               <p>Sitio informativo, incluye inicio, sobre nosotros, servicios e implementacion de contacto por mail y/o whatsapp.</p>

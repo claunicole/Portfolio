@@ -27,9 +27,9 @@ function Services() {
           </div>
           <div className='service-card'>
             <div className='service-info'>
-             {/*  <div>
+              <div>
                 <LazyLoadImage className='img-service' alt='ecommerce image' src={ecommerceImg} effect='blur' />
-              </div> */}
+              </div>
               <h3 className='service-title'>Ecommerce con Jumpseller</h3>
               <h4 className='service-title'>150usd</h4>
               <p>Diseño y maquetación, agregar productos, implementación de metodos de pago, metodos de envio, redes sociales y capacitacion para autoadministrar el sitio.</p>

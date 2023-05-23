@@ -22,7 +22,7 @@ function Services() {
               <p>Sitio informativo, incluye inicio, sobre nosotros, servicios e implementacion de contacto por mail y/o whatsapp.</p>
               <p>Puede incluir imagenes y/o videos.</p>
               <p>Tiempo de entrega: 1 a 2 semanas.</p>
-              <p>Hosting y dominio incluidos**</p>
+              <p>Hosting y dominio <strong>NO</strong> incluidos**</p>
             </div>
             <Link to='/contact'><button>Me interesa</button></Link>
           </div>

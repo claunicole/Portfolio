@@ -13,9 +13,9 @@ function Services() {
         < div className='services'>
           <div className='service-card'>
             <div className='service-info'>
-              <div>
+              {/* <div>
                 <LazyLoadImage className='img-service' alt='landing image' src={landingImg} effect='blur' />
-              </div>
+              </div> */}
               <h3 className='service-title'>Landing Page</h3>
               <h4 className='service-title'>100 usd</h4>
               <p>Sitio informativo, incluye inicio, sobre nosotros, servicios e implementacion de contacto por mail y/o whatsapp.</p>
@@ -27,9 +27,9 @@ function Services() {
           </div>
           <div className='service-card'>
             <div className='service-info'>
-              <div>
+             {/*  <div>
                 <LazyLoadImage className='img-service' alt='ecommerce image' src={ecommerceImg} effect='blur' />
-              </div>
+              </div> */}
               <h3 className='service-title'>Ecommerce con Jumpseller</h3>
               <h4 className='service-title'>150usd</h4>
               <p>Diseño y maquetación, agregar productos, implementación de metodos de pago, metodos de envio, redes sociales y capacitacion para autoadministrar el sitio.</p>
@@ -40,9 +40,9 @@ function Services() {
           </div>
           <div className='service-card'>
             <div className='service-info'>
-              <div>
+             {/*  <div>
                 <LazyLoadImage className='img-service' alt='coding image' src={codingImg} effect='blur' />
-              </div>
+              </div> */}
               <h3 className='service-title'>Aplicaciones Web</h3>
               <h4 className='service-title'>Valores según cotización</h4>
               <p>Aplicación desarrollada a medida.</p>

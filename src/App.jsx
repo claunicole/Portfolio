@@ -8,6 +8,7 @@ import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
 import Home from './Home/Home'
 import MainPage from './MainPage/MainPage'
+import Services from './Services/Services'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element={<MainPage/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/services' element={<Services/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path ="/*" element ={<Navigate to ="/" replace/>}/>

@@ -1,0 +1,73 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  padding-left: 15px;
+  min-height: 85vh;
+  background-color: #f6f4fc;
+  color: #213547;
+  padding-bottom: 120px;
+}
+
+.service-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px 0px rgba(153, 157, 187, 0.547);
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+.service-info {
+  padding-bottom: 20px;
+}
+
+.service-card h4 {
+  color: #2d465c;
+}
+
+.service-card p {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+}
+
+.img-service {
+  width: 250px;
+  height: 200px;
+}
+
+.service-card button {
+  background-color: #8D078B;
+  color: white;
+  border: none;
+  margin-top: auto;
+}
+
+.service-card button:hover {
+  background-color: #a71aa5;
+}
+
+@media (min-width: 1024px) {
+
+  .services-container {
+    align-items: center;
+  }
+
+  .services {
+    display: flex;
+  }
+
+  .service-card {
+    width: 400px;
+  }
+}

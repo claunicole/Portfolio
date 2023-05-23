@@ -6,7 +6,7 @@ function About() {
       <div className="about-container">
         <h2>Sobre mí</h2>
         <div className='info-profile'>
-          <img className='img-profile' src='/dev-code.png' alt="a" width={585} height={390}/>
+          <img className='img-profile' src='/dev-code.png' alt="a"/>
           <div className='about-text-container'>
             <p>Desarrolladora Web con conocimiento en JavaScript, React, Next.js y Ruby on Rails.</p>
             <p>Apasionada por la tecnología, por el continuo aprendizaje, en búsqueda de retos y nuevas oportunidades.</p>

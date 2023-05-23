@@ -50,7 +50,8 @@
     width: 90%;
     height: 390px;
     border-radius: 15px;
-    background-size: cover;   
+    background-size: cover;  
+    margin-left: 20px; 
 }
 
 

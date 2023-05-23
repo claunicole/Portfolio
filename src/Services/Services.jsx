@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import './Services.css'
 import landingImg from '/landing.jpg'
 import ecommerceImg from '/ecommerce.jpg'
+import codingImg from '/coding.jpg'
 
 
 function Services() {
@@ -40,9 +41,9 @@ function Services() {
           </div>
           <div className='service-card'>
             <div className='service-info'>
-             {/*  <div>
+             <div>
                 <LazyLoadImage className='img-service' alt='coding image' src={codingImg} effect='blur' />
-              </div> */}
+              </div>
               <h3 className='service-title'>Aplicaciones Web</h3>
               <h4 className='service-title'>Valores según cotización</h4>
               <p>Aplicación desarrollada a medida.</p>

@@ -19,8 +19,9 @@ function Services() {
               </div>
               <h3 className='service-title'>Landing Page</h3>
               <h4 className='service-title'>100 usd</h4>
-              <p>Sitio informativo, incluye inicio, sobre nosotros, servicios e implementacion de contacto por mail y/o whatsapp.</p>
-              <p>Puede incluir imagenes y/o videos.</p>
+              <p>Sitio informativo.</p>
+              <p>Incluye: inicio, sobre nosotros, servicios e implementación de contacto por mail y/o whatsapp.</p>
+              <p>Puede incluir imágenes y/o videos.</p>
               <p>Tiempo de entrega: 1 a 2 semanas.</p>
               <p>Hosting y dominio <strong>NO</strong> incluidos**</p>
             </div>
@@ -33,7 +34,7 @@ function Services() {
               </div>
               <h3 className='service-title'>Ecommerce con Jumpseller</h3>
               <h4 className='service-title'>150usd</h4>
-              <p>Diseño y maquetación, agregar productos, implementación de metodos de pago, metodos de envio, redes sociales y capacitacion para autoadministrar el sitio.</p>
+              <p>Diseño y maquetación, agregar productos, implementación de métodos de pago, métodos de envio, redes sociales y capacitación para autoadministrar el sitio.</p>
               <p>Tiempo de entrega: 2 a 4 semanas.</p>
               <p>Hosting y dominio <strong>NO</strong> incluidos**</p>
               </div>

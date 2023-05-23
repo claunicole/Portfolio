@@ -10,7 +10,7 @@ function About() {
       <div className="about-container">
         <h2>Sobre mí</h2>
         <div className='info-profile'>
-        <LazyLoadImage className='img-service' alt='developer image' src={devImg} effect='blur' />
+        <LazyLoadImage className='img-profile' alt='developer image' src={devImg} effect='blur' />
           <div className='about-text-container'>
             <p>Desarrolladora Web con conocimiento en JavaScript, React, Next.js y Ruby on Rails.</p>
             <p>Apasionada por la tecnología, por el continuo aprendizaje, en búsqueda de retos y nuevas oportunidades.</p>

@@ -2,9 +2,9 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Link } from 'react-router-dom'
 import './Services.css'
-import landingImg from '/landing.png'
-import ecommerceImg from '/ecommerce.png'
-import codingImg from '/coding.png'
+import landingImg from '/landing.jpg'
+import ecommerceImg from '/ecommerce.jpg'
+
 
 function Services() {
   return (

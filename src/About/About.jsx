@@ -16,6 +16,7 @@ function About() {
             <p>Apasionada por la tecnología, por el continuo aprendizaje, en búsqueda de retos y nuevas oportunidades.</p>
             <p>Actualmente trabajando en Código Facilito como Desarrolladora Ruby on Rails.</p>
             <p>También mentora en BrightCoders, apoyando a participantes de los programas intensivos de Brightcoders a desarrollar aplicaciones adoptando buenas prácticas, mejorando sus habilidades técnicas y utilizando de forma continua tecnologías como Git y Github</p>
+            <p>Además, miembro del staff de la primera JSConf Chile, realizado en febrero del 2023</p>
         </div>
         </div>
       </div>
